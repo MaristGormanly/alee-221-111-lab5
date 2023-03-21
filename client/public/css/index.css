@@ -1,0 +1,134 @@
+h1 {
+    font-size: 65px;
+    font-family: 'Arial Black';
+    color: rgb(157, 0, 0);
+    text-decoration-line: underline;
+}
+
+body {
+    height: 100%;
+    background-image: url("../img/design.png");
+    background-repeat: repeat-x;
+    background-position: center;
+    backdrop-filter: blur(4px);
+}
+
+/* Position text in the middle of the page/image */
+.box {
+    text-align: center;
+    background-color: rgb(255, 192, 192);
+    width: 385px;
+    height: 580px;
+    padding: 40px;
+    margin: auto;
+    border: 10px;
+    border-style: double;
+    opacity: 0.95;
+}
+
+.container {
+    padding: 23px;
+    background-color: antiquewhite;
+    border: 2px;
+    border-style: solid;
+}
+
+input {
+    width: 250px;
+    height: 35px;
+    margin: auto;
+    display: inline-block;
+    border: 3px solid green;
+    box-sizing: border-box;
+    opacity: 0.8;
+}
+
+input:hover {
+    opacity: 1;
+}
+
+/* Style all font awesome icons */
+button[type=submit] {
+    padding: 7px;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(197, 69, 69);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Add a hover effect if you want */
+button[type=submit]:hover {
+    background: rgb(208, 119, 119);
+    opacity: 0.9;
+}
+
+.hl {
+    display: flex;
+    flex-direction: row;
+}
+
+.hl:before,
+.hl:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 2px solid #000;
+    margin: auto;
+}
+
+.hl-circle {
+    border-radius: 50%;
+    width: 14px;
+    height: 14px;
+    padding: 3px;
+    border: 3px solid #000;
+    color: #000;
+    text-align: center;
+    font: 9px Arial, sans-serif;
+    font-weight: bold;
+}
+
+button[onclick] {
+    font-size: medium;
+    font-family: Helvetica;
+    padding: 10px;
+    width: 150px;
+    background-color: rgb(231, 220, 166);
+}
+
+button[onclick]:hover {
+    background: rgb(234, 237, 197);
+    opacity: 0.9;
+}
+
+/* Facebook */
+.fa-facebook {
+    font-size: 23px;
+    padding: 10px;
+    text-align: center;
+    background-color: #3B5998;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Google */
+.fa-google {
+    font-size: 23px;
+    padding: 10px;
+    text-align: center;
+    background: #7296d5;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Twitter */
+.fa-twitter {
+    font-size: 23px;
+    padding: 10px;
+    text-align: center;
+    background: #55ACEE;
+    color: white;
+    border-radius: 5px;
+}
