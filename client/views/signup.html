@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Social Media Sign Up</title>
+    <link rel="stylesheet" type="text/css" href="/css/signup.css">
+    <script src="/js/signup.js"></script>
+</head>
+
+<body>
+    <!--Red box-->
+    <div class="box">
+        <h1>Sign Up</h1>
+        <p>To create an account, please fill out the following:</p>
+        <hr>
+        <!--Log-in form-->
+        <form name="signUpForm" action="http://localhost:1337/signup">
+            <div class="container">
+                <label for="email" text-align="right">Email:</label>
+                <input type="text" name="email">
+                <br>
+                <br>
+                <label for="user">Username (8-12 characters):</label>
+                <input type="text" name="user">
+                <br>
+                <br>
+                <label for="password">Password (8-12 characters):</label>
+                <input type="text" name="password">
+                <br>
+                <br>
+                <label for="repeatPassword">Repeat Password:</label>
+                <input type="text" name="repeatPassword">
+                <br>
+                <br>
+                <button type="submit" id="signUp">Sign Up</button>&nbsp;&nbsp;
+                <!--Takes user back to login page-->
+                <a href="http://localhost:1337/" class="cancel">Cancel</a> 
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
