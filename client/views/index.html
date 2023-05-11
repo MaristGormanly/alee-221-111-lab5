@@ -5,14 +5,23 @@
   <title>Login Page</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="/css/index.css">
-  <script src="/js/index.js"></script>
 </head>
 
 <body>
+  <!-- <iframe id="myFrame" src="/"></iframe>
+  <p id="demo"></p> -->
   <!--Red box-->
-  <div class="box">
+
+  <!-- Choose from list of accounts -->
+  <div class="container">
+    <p>Hello! Choose an account.</p>
+      <div id="users"></div>
+  </div>
+
+  <script src="/js/index.js"></script>
+
+  <!-- <div class="box">
     <h1>Sign In</h1>
-    <!--Log-in form-->
     <form name="loginForm" action="http://localhost:1337/" onsubmit="return validateForm()" method="get">
       <div class="container">
         <input type="text" name="user" placeholder="Username" required> 
@@ -22,15 +31,13 @@
         <br>
         <br>
         <br>
-        <button type="submit" id="login">Login</button>
+        <input type="button" id="loginbutton">Login</input>
         <br>
         <br>
         <a href="#" class="f-p">Forgot Password?</a>
       </div>
-      <!--After clicking "Log In", takes user to next page-->
     </form>
     <br>
-    <!--Circle around'OR'-->
     <div class="hl">
       <div class="hl-circle">OR</div>
     </div>
@@ -38,13 +45,13 @@
     <button onclick="clickFunction()">Sign Up</button>
     <br>
     <br>
-    <!--can automatically sign in/up with alternative social media account-->
     <div class="social-media">
       <a href="#" class="fa fa-facebook">Facebook</a>&nbsp;&nbsp;&nbsp;
       <a href="#" class="fa fa-google">Google</a>&nbsp;&nbsp;&nbsp;
       <a href="#" class="fa fa-twitter">Twitter</a>
     </div>
-  </div>
+  </div> -->
+  
 </body>
 
 </html>
