@@ -5,6 +5,7 @@ let userController = require('../controller/userController');
 
 console.log("[userRoute] initialized");
 
+// route to first page
 router.route('/')
     .get((req, res) => {
         userController.getAllUsers(req, res);
